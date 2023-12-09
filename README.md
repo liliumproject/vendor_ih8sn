@@ -17,19 +17,19 @@
 ### 1: Clone ih8sn repo.
 
 ```
-git clone https://github.com/althafvly/ih8sn ih8sn
+git clone https://github.com/liliumproject/vendor_ih8sn vendor/ih8sn
 ```
 
 ### 2: Include makefile.
 
 ```
-$(call inherit-product-if-exists, ih8sn/product.mk)
+$(call inherit-product-if-exists, vendor/ih8sn/product.mk)
 ```
 
 ### 3: Apply patches.
 
 ```
-curl https://raw.githubusercontent.com/althafvly/ih8sn/master/patches/patch.sh | bash
+curl https://raw.githubusercontent.com/liliumproject/vendor_ih8sn/master/patches/patch.sh | bash
 ```
 
 ## Requirements for recovery/adb root.
